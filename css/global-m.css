@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.margin-auto {
+	margin: 0 auto !important;
+	float: none !important;
+}
+.forgot-password .controls{
+	position: relative;
+}
+.input-icon {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+}
+.forgot-password input.input-block-level{
+	width: 84% !important;
+}
+.forgot-password p {
+	font-size: 19px;
+	color: #4c4c4c;
+	font-family: Calibri Arial, Helvetica, sans-serif;
+	padding: 0 0 40px 0;
+	line-height: 24px;
+}
+.forgot-password form p {
+	padding: 0 0 15px 0;
+}
+.forgot-password label {
+	font-family: Calibri Arial, Helvetica, sans-serif;
+}
+.border-right {
+	border-right: 1px solid #4c4c4c;
+}
+.view-data .dl-horizontal dt {
+	text-align: left;
+	font-size: 20px;
+	color: #4c4c4c;
+	font-family: Calibri Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.view-data .dl-horizontal dd {
+	text-align: left;
+	font-size: 20px;
+	color: #989898;
+	font-family: Calibri Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	padding: 0 0 15px 0;
+	margin-left: 165px;
+}
+.confirmation-bar {
+    background: none repeat scroll 0 0 #4C4C4C;
+    color: #FFFFFF;
+    padding: 20px 10% 20px 20%;
+    position: relative;
+	margin: 30px 0;
+}
+.confirmation-bar p {
+	font-size: 22px;
+	color: #fff;
+	padding: 0;
+}
+.confirmation-check {
+    left: -40px;
+    position: absolute;
+    top: -14px;
+}
+.popup-close {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.popup-close {
+    position: absolute;
+    right: -11px;
+    top: -12px;
+}
+.popup-mask {
+	background: url(../images/popup-mask.png) repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	z-index: 10;
+}
+.popup-inner {
+	position: absolute;
+	right: 0;
+	top: 52px;
+	z-index: 12;
+	background: #fff;
+	border: 1px solid #000;
+	box-shadow: 0 0 15px #c4c4c4;
+	padding: 8px 5px 8px 10px;
+	text-align:center;
+}
+.popup-inner p {
+	padding: 0;
+}
+.actions {
+	position: relative;
+	display: inline-block;
+}
+.highlited-link {
+	position: relative;
+	z-index: 11;
+}
+.popup-arrow {
+	position: absolute;
+	top: -23px;
+	right: 6px;
+	z-index: 15;
+}
+.check-mark {
+	position: relative;
+	top: -1px;
+}
+@media (max-width: 768px) {
+	.confirmation-check {
+    left: -12px;
+    position: absolute;
+    top: -14px;
+}
+.popup-inner p span {
+	display: block;
+	padding: 8px;
+}
+	}
+
+

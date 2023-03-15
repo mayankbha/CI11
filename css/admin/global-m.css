@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.margin-auto {
+	margin: 0 auto !important;
+	float: none !important;
+}
+.admin-form {
+	margin-top: 120px;
+	margin-bottom: 120px !important;
+}
+.forgot-link {
+	display: inline-block;
+	font-size: 14px;
+	color: #4c4c4c;
+	margin-bottom: 5px;
+	text-decoration: underline;
+	font-family: Calibri Arial, Helvetica, sans-serif;
+}
+.borderR-none {
+	border-right: 0 !important;
+	padding-right: 0 !important;
+}
+.phone-block {
+	display: none;
+}
+.outbound-email td p {
+	font-size: 14px;
+	color: #b8b8b8;
+	line-height: 20px;
+}
+.admin-content .admin-form {
+	margin-top: 10px !important;
+}
+.dl-horizontal dt, .dl-horizontal dd {
+	font-family: Calibri Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: 22px;
+}
+.dl-horizontal dt {
+	font-size: 20px;
+}
+.dl-horizontal dd {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.action-buttons {
+	margin-top: 40px;
+}
+@media (max-width: 980px) {
+	 .admin-form {
+	padding: 50px 2% 10px;
+	margin-top: 60px !important;
+}
+}
+
+@media (max-width: 800px) {}
+@media (max-width: 768px) {
+	.admin-form {
+		margin-top: 10px !important;
+		}
+.admin-form label {
+	text-align: left;
+}
+		}
+@media (max-width: 400px) {
+.phone-block {
+	display: block;
+}
+}
